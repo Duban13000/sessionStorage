@@ -1,10 +1,11 @@
 function mostrarNombre(){
     const nombre = sessionStorage.getItem("nombre");
+    const ciudad = sessionStorage.getItem("ciudad");
 
-    if(nombre === null){
-        document.getElementById("saludo").textContent = "No hay ningun nombre guardado"
+    if(nombre === null && ciudad === null){
+        document.getElementById("saludo").textContent = "No hay ningun nombre  y ciudad guardada"
     } else{
-        document.getElementById("saludo").textContent = `Hola, ${nombre}`;
+        document.getElementById("saludo").textContent = `Hola, ${nombre} , de ${ciudad}`;
     }
 }
 function borrar(){

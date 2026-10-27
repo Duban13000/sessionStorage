@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/script2.js" defer></script>
+</head>
+<body>
+    <h1>Pagina 2</h1>
+    <p id="saludo"></p>
+    <button id="btn-borrar">Borrar el nombre</button>
+    <a href="index.html">Volver a la pagina 1</a>
+
+    <p>1. ¿Por qué la página 2 conoce tu nombre si nunca vio la caja de texto de la página 1?<br>
+
+    Porque se ha utilizado sessionStorage.setItem("nombre", "Luis")<br>
+
+    2. ¿Qué devuelve getItem cuando no hay nada guardado, y qué pasaría si el código no lo revisara
+    con el if?<br>
+
+    Sale el textContent = "No hay ningun nombre guardado".<br>
+    Si no se hiciera la comprobacion con el if devolveria un null<br>
+
+    3. ¿En qué se diferencian recargar la página y cerrar la pestaña?<br>
+
+    refresca la pagina mientras que la otra hace que deje de operar<br>
+
+
+    4. Después de la prueba extra en la consola, ¿guardarías una contraseña en sessionStorage? ¿Por
+    qué?<br>
+
+    No la guardaria, puede ser cambiada muy facilmente por la consola</p>
+</body>
+</html>
