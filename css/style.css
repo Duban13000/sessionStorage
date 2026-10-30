@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+#btn-borrar, #btn-borrar{
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+#btn-borrar:hover, #btn-borrar:hover{
+    transition: 500ms;
+    transform: scale(1.05);
+}
